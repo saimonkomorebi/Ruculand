@@ -1,0 +1,795 @@
+Kits:
+  Esclavo:
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&7Espada oxidada'
+        lore:
+        - '&8Igual de afilada que un rastrillo.'
+        unbreakable: 'false'
+      '2':
+        id: CHAINMAIL_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&7Casco roto'
+        lore:
+        - '&8Digno de tu rango.'
+        unbreakable: 'false'
+      '3':
+        id: CHAINMAIL_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&7Pantalones rotos'
+        lore:
+        - '&8Mejor que estar desnudo.'
+        unbreakable: 'false'
+      '4':
+        id: BREAD
+        amount: '12'
+        durability: '0'
+        name: '&7Pan sucio'
+        lore:
+        - '&8Nutritivo...?'
+        unbreakable: 'false'
+    slot: 10
+    display_item: GRAY_DYE
+    display_name: '&f&kA &fKit &l&7&lESCLAVO &kA &2✔'
+    display_lore:
+    - '&8Revelarse al poder es el primer paso.'
+    - ''
+    - '&2+ $10 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 60
+    permission: playerkits.kit.esclavo
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 10
+  Campesino:
+    Items:
+      '1':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&eEspantapájaros'
+        lore:
+        - '&8Puede matar.'
+        enchants:
+        - KNOCKBACK;1
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: IRON_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&ePico de trabajo'
+        lore:
+        - '&8Nada es gratis.'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: IRON_AXE
+        amount: '1'
+        durability: '0'
+        name: '&eHacha de trabajo'
+        lore:
+        - '&8Nada es gratis.'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: IRON_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: '&ePala de trabajo'
+        lore:
+        - '&8Nada es gratis.'
+        enchants:
+        - DIG_SPEED;1
+        - DURABILITY;1
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: GOLDEN_APPLE
+        amount: '3'
+        durability: '0'
+        preview_slot: 4
+      '6':
+        color: 10511680
+        id: LEATHER_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&eGorro de la fábrica'
+        lore:
+        - '&8Te proteje de yunques a la cabeza, y también de golpes.'
+        unbreakable: 'false'
+        preview_slot: 5
+      '7':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&ePechera oxidada'
+        lore:
+        - '&8Formidable.'
+        unbreakable: 'false'
+        preview_slot: 6
+    slot: 11
+    display_item: YELLOW_DYE
+    display_name: '&f&kA &fKit &l&e&lCAMPESINO &kA &2✔'
+    display_lore:
+    - '&8Peón de terratenientes.'
+    - ''
+    - '&2+ $50 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 500
+    permission: playerkits.kit.Campesino
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&kA &fKit &l&e&lCAMPESINO &kA &c✘'
+      display_lore:
+      - '&8Peón de terratenientes.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 50
+  Aprendiz:
+    Items:
+      '1':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&aEspada de aprendiz'
+        lore:
+        - '&8Más pesada que otras espadas, también más letal.'
+        enchants:
+        - DAMAGE_ALL;2
+        - DURABILITY;2
+        unbreakable: 'false'
+      '2':
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&aCasco de aprendiz'
+        lore:
+        - '&8Proporcionado por los grandes maestros del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+      '3':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&aPechera de aprendiz'
+        lore:
+        - '&8Proporcionada por los grandes maestros del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+      '4':
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&aPantalones de aprendiz'
+        lore:
+        - '&8Proporcionados por los grandes maestros del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+      '5':
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&aBotas de aprendiz'
+        lore:
+        - '&8Proporcionadas por los grandes maestros del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;2
+        unbreakable: 'false'
+      '6':
+        id: IRON_AXE
+        amount: '1'
+        durability: '0'
+        name: '&aRematadora'
+        lore:
+        - '&8Para el golpe final.'
+        enchants:
+        - DAMAGE_ALL;1
+        unbreakable: 'false'
+      '7':
+        id: APPLE
+        amount: '12'
+        durability: '0'
+    slot: 12
+    display_item: LIME_DYE
+    display_name: '&f&kA &fKit &l&a&lAPRENDIZ &kA &2✔'
+    display_lore:
+    - '&8Futura promesa del reino.'
+    - ''
+    - '&2+ $70 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 1000
+    permission: playerkits.kit.Aprendiz
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&a&lAPRENDIZ &kA &c✘'
+      display_lore:
+      - '&8Futura promesa del reino.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 70
+  Soldado:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&2Espada oficial'
+        lore:
+        - '&8Para soldados oficiales del reino.'
+        enchants:
+        - DAMAGE_ALL;2
+        unbreakable: 'false'
+      '2':
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&2Casco del ejército'
+        lore:
+        - '&8Para soldados oficiales del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;2
+        unbreakable: 'false'
+      '3':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&2Pechera del ejército.'
+        lore:
+        - '&8Para soldados oficiales del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;2
+        unbreakable: 'false'
+      '4':
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&2Pantalones del ejército'
+        lore:
+        - '&8Para soldados oficiales del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;2
+        unbreakable: 'false'
+      '5':
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&2Botas del ejército'
+        lore:
+        - '&8Para soldados oficiales del reino.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;2
+        - PROTECTION_FALL;1
+        unbreakable: 'false'
+      '6':
+        id: GOLDEN_APPLE
+        amount: '5'
+        durability: '0'
+      '7':
+        potion-type: INSTANT_HEAL
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: SPLASH_POTION
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+      '8':
+        potion-type: STRENGTH
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: SPLASH_POTION
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+    slot: 13
+    display_item: GREEN_DYE
+    display_name: '&f&kA &fKit &l&2&lSOLDADO &kA &2✔'
+    display_lore:
+    - '&8Parte oficial del ejército.'
+    - ''
+    - '&2+ $100 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 2000
+    permission: playerkits.kit.Soldado
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&kA &fKit &l&2&lSOLDADO &kA &c✘'
+      display_lore:
+      - '&8Parte oficial del ejército.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 100
+  Guerrero:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&c&lEspada del guerrero'
+        lore:
+        - '&cUnos pocos experimentados'
+        - '&cpueden portarla.'
+        enchants:
+        - DAMAGE_ALL;3
+        - DURABILITY;3
+        - MENDING;1
+        - FIRE_ASPECT;1
+        unbreakable: 'false'
+      '2':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&c&lCasco de guerra'
+        lore:
+        - '&cForjado en sangre.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;3
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&c&lPechera de guerra'
+        lore:
+        - '&cForjada en sangre.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;3
+        unbreakable: 'false'
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&c&lPantalones de guerra'
+        lore:
+        - '&cForjados en sangre.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;3
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&c&lBotas de guerra'
+        lore:
+        - '&cForjadas en sangre'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;3
+        - DURABILITY;3
+        - THORNS;3
+        unbreakable: 'false'
+      '6':
+        id: GOLDEN_CARROT
+        amount: '10'
+        durability: '0'
+      '7':
+        id: DIAMOND_PICKAXE
+        amount: '1'
+        durability: '0'
+        name: '&cRompealmas'
+        lore:
+        - '&c&lPicos como la seda quitan spawners...'
+        - '&c&lhaciendo granjas con ellos podrás vender'
+        - '&c&lmas ítems y ganar más plata'
+        enchants:
+        - SILK_TOUCH;1
+        - DIG_SPEED;2
+        - DURABILITY;3
+        unbreakable: 'false'
+      '8':
+        potion-type: JUMP
+        potion-upgraded: 'true'
+        potion-extended: 'false'
+        id: SPLASH_POTION
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+      '9':
+        potion-type: FIRE_RESISTANCE
+        potion-upgraded: 'false'
+        potion-extended: 'true'
+        id: SPLASH_POTION
+        amount: '1'
+        durability: '0'
+        unbreakable: 'false'
+    slot: 14
+    display_item: RED_DYE
+    display_name: '&f&kA &fKit &l&c&lGUERRERO &kA &2✔'
+    display_lore:
+    - '&8Experimentado en batalla, pocos le hacen frente.'
+    - ''
+    - '&2+ $250 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 5000
+    permission: playerkits.kit.Guerrero
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&kA &fKit &l&c&lGUERRERO &kA &c✘'
+      display_lore:
+      - '&8Experimentado en batalla, pocos le hacen frente.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 250
+  Caballero:
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&b&kA &b&lEspada del Caballero &b&l&kA'
+        lore:
+        - '&fAsignado al escuadrón real.'
+        enchants:
+        - DAMAGE_ALL;5
+        - DURABILITY;5
+        - FIRE_ASPECT;2
+        - MENDING;1
+        - LOOT_BONUS_MOBS;2
+        - KNOCKBACK;1
+        unbreakable: 'false'
+      '2':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&kA &b&lCasco real &b&l&kA'
+        lore:
+        - '&fAsignado al escuadrón real.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;4
+        - THORNS;3
+        - MENDING;1
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&kA &b&lPechera real &b&l&kA'
+        lore:
+        - '&fAsignado al escuadrón real.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;4
+        - MENDING;1
+        - THORNS;3
+        unbreakable: 'false'
+      '4':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&kA &b&lPantalones reales &b&l&kA'
+        lore:
+        - '&fAsignado al escuadrón real.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;4
+        - MENDING;1
+        - THORNS;3
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&kA &b&lBotas reales &b&l&kA'
+        lore:
+        - '&fAsignadas al escuadrón real.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - DURABILITY;4
+        - THORNS;3
+        - MENDING;1
+        unbreakable: 'false'
+      '6':
+        id: GOLDEN_APPLE
+        amount: '10'
+        durability: '0'
+      '7':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '1'
+        durability: '0'
+      '8':
+        id: DIAMOND_BLOCK
+        amount: '3'
+        durability: '0'
+    slot: 15
+    display_item: LIGHT_BLUE_DYE
+    display_name: '&f&kA &fKit &l&b&lCABALLERO &kA &2✔'
+    display_lore:
+    - '&8Escuadrón oficial del reino, lo mejor de lo mejor.'
+    - ''
+    - '&2+ $500 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 0
+    permission: playerkits.kit.Caballero
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&b&lCABALLERO &kA &c✘'
+      display_lore:
+      - '&8Escuadrón oficial del reino, lo mejor de lo mejor.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 500
+  Asesino:
+    slot: 16
+    display_item: BROWN_DYE
+    display_name: '&f&kA &fKit &l&4&lASESINO &kA &2✔'
+    display_lore:
+    - '&8Desde las sombras, aniquilan todo a su paso.'
+    - ''
+    - '&2+ $1000 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 9000
+    permission: playerkits.kit.Asesino
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&4&lASESINO &kA &c✘'
+      display_lore:
+      - '&8Desde las sombras, aniquilan todo a su paso.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    Items:
+      '1':
+        id: NETHERITE_SWORD
+        amount: '1'
+        durability: '0'
+        name: '&4&l&kA &4&lHoja oculta &4&l&kA'
+        lore:
+        - '&fDel mercado negro. Especial.'
+        - '&cSangre oxidada en el filo.'
+        enchants:
+        - DAMAGE_ALL;7
+        - DURABILITY;7
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;3
+        - MENDING;1
+        unbreakable: 'false'
+        preview_slot: 0
+      '2':
+        id: NETHERITE_HELMET
+        amount: '1'
+        durability: '0'
+        name: '&4&l&kA &4&lCasco de Asesino &4&l&kA'
+        lore:
+        - '&cLa sangre ya está seca en el metal.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;5
+        - THORNS;3
+        - PROTECTION_FIRE;4
+        - PROTECTION_EXPLOSIONS;5
+        - MENDING;1
+        unbreakable: 'false'
+        preview_slot: 1
+      '3':
+        id: NETHERITE_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: '&4&l&kA &4&lPechera de Asesino &4&l&kA'
+        lore:
+        - '&cPocas espadas pueden dañarla.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;5
+        - THORNS;3
+        - FIRE_ASPECT;4
+        - PROTECTION_EXPLOSIONS;5
+        - MENDING;1
+        unbreakable: 'false'
+        preview_slot: 2
+      '4':
+        id: NETHERITE_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: '&4&l&kA &4&lPantalones de Asesino &4&l&kA'
+        lore:
+        - '&cMucha historia y muerte vividas.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;5
+        - THORNS;3
+        - FIRE_ASPECT;4
+        - PROTECTION_EXPLOSIONS;5
+        - MENDING;1
+        unbreakable: 'false'
+        preview_slot: 3
+      '5':
+        id: NETHERITE_BOOTS
+        amount: '1'
+        durability: '0'
+        name: '&4&l&kA &4&lBotas de Asesino &4&l&kA'
+        lore:
+        - '&cSoporta cualquier misión.'
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;5
+        - DURABILITY;5
+        - THORNS;3
+        - PROTECTION_FIRE;4
+        - PROTECTION_EXPLOSIONS;5
+        - PROTECTION_FALL;5
+        unbreakable: 'false'
+        preview_slot: 4
+      '6':
+        id: ENDER_PEARL
+        amount: '5'
+        durability: '0'
+        preview_slot: 5
+      '7':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '1'
+        durability: '0'
+        preview_slot: 6
+      '8':
+        id: LAVA_BUCKET
+        amount: '1'
+        durability: '0'
+        preview_slot: 7
+      '9':
+        id: EXPERIENCE_BOTTLE
+        amount: '25'
+        durability: '0'
+        preview_slot: 8
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 1000
+  Mago:
+    Items:
+      '1':
+        id: APPLE
+        amount: '64'
+        durability: '0'
+    slot: 21
+    display_item: MAGENTA_DYE
+    display_name: '&f&kA &fKit &l&d&lMAGO &kA &2✔'
+    display_lore:
+    - '&8Nadie sobrevive a los magos.'
+    - ''
+    - '&2+ $1300 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 13000
+    permission: playerkits.kit.Mago
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&d&lMAGO &kA &c✘'
+      display_lore:
+      - '&8Nadie sobrevive a los magos.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 1300
+  Principe:
+    Items:
+      '1':
+        id: APPLE
+        amount: '64'
+        durability: '0'
+    slot: 22
+    display_item: CYAN_DYE
+    display_name: '&f&kA &fKit &l&3&lPRÍNCIPE &kA &2✔'
+    display_lore:
+    - '&7Herederos semidioses, ni 100 hombres podrían contra ellos.'
+    - ''
+    - '&2+ $5000 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 18000
+    permission: playerkits.kit.Principe
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&3&lPRÍNCIPE &kA &c✘'
+      display_lore:
+      - '&8Herederos semidioses, ni 100 hombres podrían contra ellos.'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 5000
+  Rey:
+    Items:
+      '1':
+        id: APPLE
+        amount: '64'
+        durability: '0'
+    slot: 23
+    display_item: ORANGE_DYE
+    display_name: '&f&kA &fKit &l&6&lREY &kA &2✔'
+    display_lore:
+    - '&7No hay algo más cercano a "invencible".'
+    - ''
+    - '&2+ $10000 al adquirir.'
+    - ''
+    - '&a&o» Click izquierdo para adquirir el kit.'
+    - '&c&o» Click derecho para ver el kit.'
+    cooldown: 30000
+    permission: playerkits.kit.Rey
+    noPermissionsItem:
+      display_item: BARRIER
+      display_name: '&f&kA &fKit &l&6&lREY &kA &c✘'
+      display_lore:
+      - '&8No hay algo más cercano a "invencible".'
+      - ''
+      - '&cNo tenés este rango!'
+      - '&cPara avanzar usá /rankup'
+      - ''
+      - '&f&o» Click derecho para ver el kit.'
+    display_item_glowing: true
+    Commands:
+    - eco give %player% 10000

@@ -1,0 +1,65 @@
+#
+# If you are adding your own ranks, make sure to delete the example ranks!
+# Need help setting the plugin up?
+# Read the wiki: https://okx.sh/rankup/Home.html
+# Join the discord server for live support: https://discord.gg/maB4382 (buyers only)
+#
+
+# this name doesn't matter
+1:
+  # the name of the group
+  # players have to be in this rank to rankup
+  rank: '&7&lEsclavo'
+  # the name of the rank a player can rankup to
+  next: '&e&lCampesino'
+  # List of requirements to go to the next rank
+  # This example will charge 1000 money to rankup from A to B.
+  # https://okx.sh/rankup/List-of-Requirements.html
+  # custom requirements can also be added by other plugins.
+  requirements:
+    - 'money 25'
+  # the console will run these commands when a player ranks up
+  # nb: groups are automatically changed with vault
+  #commands:
+  # this will run when a player ranks up from A to B.
+  #- 'say {{player}} well done for ranking up from {{rank.rank}} to {{next.rank}}!'
+2:
+  rank: '&e&lCampesino'
+  next: '&a&lAprendiz'
+  requirements:
+    - 'money 50'
+3:
+  rank: '&a&lAprendiz'
+  next: '&2&lSoldado'
+  requirements:
+    - 'money 150'
+4:
+  rank: '&2&lSoldado'
+  next: '&c&lGuerrero'
+  requirements:
+    - 'money 1000'
+5:
+  rank: '&c&lGuerrero'
+  next: '&b&lCaballero'
+  requirements:
+    - 'money 5000'
+6:
+  rank: '&b&lCaballero'
+  next: '&4&lAsesino'
+  requirements:
+    - 'money 15000'
+7:
+  rank: '&4&lAsesino'
+  next: '&d&lMago'
+  requirements:
+    - 'money 30000'
+8:
+  rank: '&d&lMago'
+  next: '&3&lPríncipe'
+  requirements:
+    - 'money 50000'
+9:
+  rank: '&3&lPríncipe'
+  next: '&6&lRey'
+  requirements:
+    - 'money 100000'

@@ -1,0 +1,64 @@
+Auto_Broadcast:
+  Global_Messages:
+    Enable: false
+    Header_And_Footer: false
+    Interval: 5
+    Prefix: "&7[&aRUCULAND&7]"
+    Header: ''
+    Footer: ''
+    Sound: ''
+    Messages:
+
+  Per_World_Messages:
+    Enable: true
+    Header_And_Footer: false
+    Interval: 130
+    Prefix: "&7[&aRUCULAND&7]"
+    Header: ''
+    Footer: ''
+    Sound: ''
+    Messages:
+      world:
+      - "&6&lTIP &e» &r&fTe recomiendo muchísimo utilizar &e/help."
+      - "&6&lTIP &e» &r&fUsá &e/rankup &fpara &lSUBIR &r&fde rango y tener mas &e/kits."
+      - "&6&lTIP &e» &r&fPara reclamar tus kits usá &e/kits."
+      - "&6&lTIP &e» &r&fPara saber todo de clanes usá &e/help&f, hay &lMUCHAS &rcosas nuevas #FF7F50(cofre de clan, chat de clan, banco compartido, alianzas y enemistades, bases, etc.)"
+      - "&6&lTIP &e» &r&fPara dejar de ser &8&lESCLAVO &r&fusá &e/rankup."
+      - "&6&lTIP &e» &r&fUsá &e/shop &fpara &6&lCOMPRAR &r&fobjetos y &e/sellgui &fpara &a&lVENDER &r&flos tuyos."
+      - "&6&lTIP &e» &r&fUsá &e/ca &fpara ver las &6ofertas &fde jugadores &fy &e/ca sell (precio) &fpara ofertar tus ítems. Si querés &2subastar &fun ítem, usá &e/ca bid (precio)."
+      - "&6&lTIP &e» &r&fContactame y comprá el rango &a&lVIP &r&fpara comandos como &e/fly &fy &e/repair&f!"
+      - "&6&lTIP &e» &r&e/pay (jugador) &fpara darle plata a un jugador."
+      - "&6&lTIP &e» &fHay una &4Cárcel &fen este servidor, deberías tener cuidado."
+      - "&6&lTIP &e» &fNo sabes como ganar plata? &a&lVENDÉ &r&e/sellgui #FF7F50&lOFERTÁ&r &e/ca sell ´precio´ &r&fy &2&lSUBASTÁ &r&e/ca bid ´precio´&f, reclamá tus &c/kits&f todos los días, hacé granjas #FF7F50(cáctus, etc) &fo conseguí objetos en &e/warp farmeo &fy vendelos, lográ tener &4rachas &fde #FF4500kills&f, etc."
+      - "&6&lTIP &e» #FF7F50Con todo lo que vendas podés: &FComprar muchos &e/kits&f, subir de rango con &e/rankup&f para tener más kits gratis, comprar ítems en &e/shop&f, conseguir ítems valiosos en &e/warp farmeo&f y mucho más."
+      world_nether:
+      - "&c[&4Voz misteriosa&c] &8Las varas de blaze se venden muy bien... Roba los spawners con toque de seda y construye granjas, vas a tener los mejores kits en nada. Si no querés hacer tu propia granja, podés ir a &e/warp farmeo."
+      world_the_end:
+      - "&c[&4Voz misteriosa&c] &8Las perlas ender se venden bien! Construir granjas es la mejor opción."
+  Actionbar_Messages:
+    Enable: false
+    Interval: 60
+    Prefix: "&7[&6AutoBroadcast&7]"
+    Sound: ''
+    Messages:
+      - "{Prefix} &7Auto-Broadcast action bar message."
+      - "{Prefix} &7Plugin created by H1DD3NxN1NJA."
+      - "{Prefix} &7Hello &c{player} &7there are &c{online} &7players online."
+  Title_Messages:
+    Enable: true
+    Interval: 60
+    Sound: ''
+    Title: "&cTitle"
+    Messages:
+      - "&7Auto-Broadcast title message."
+      - "&7Plugin created by H1DD3NxN1NJA."
+      - "&7Hello &c{player} &7there are &c{online} &7players online."
+  Bossbar_Messages: #1.9+
+    Enable: false
+    Interval: 60
+    Sound: ''
+    Bar_Time: 10 #How long the boss bar stays on for.
+    Messages:
+      - "&7Auto-Broadcast bossbar message."
+      - "&7Plugin created by H1DD3NxN1NJA."
+      - "&7Hello &c{player} &7there are &c{online} &7players online."

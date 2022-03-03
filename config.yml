@@ -1,0 +1,51 @@
+Config:
+  update_notification: true
+Messages:
+  prefix: '&4[&bConditionalEvents&4] '
+  commandReload: '&aConfig Reloaded.'
+  commandNoPermissions: '&cYou don''t have permissions to use this command.'
+  commandResetError: '&cUse &7/ce reset <player> <event>'
+  eventDoesNotExists: '&cThat event doesn''t exists on the config.'
+  cooldownReset: '&aCooldown was reset for player &e%player% &aon event &e%event%&a!'
+  eventEnableError: '&cUse &7/ce enable <event>'
+  eventDisableError: '&cUse &7/ce disable <event>'
+  eventEnabled: '&aEvent &7%event% &aenabled.'
+  eventDisabled: '&aEvent &7%event% &adisabled.'
+  seconds: s
+  minutes: m
+  hours: h
+  days: d
+Events:
+  event1:
+    type: player_kill
+    conditions:
+    - '%player_world% equals world'
+    actions:
+      default:
+      - 'playsound: ENTITY_PLAYER_LEVELUP;10;2'
+  event2:
+    type: block_interact
+    conditions:
+    - '%block_x% == 248'
+    - '%block_y% == 70'
+    - '%block_z% == -103'
+    - '%block% equals OAK_PRESSURE_PLATE'
+    - '%vault_ranksuffix% equals a'
+    - '%statistic_minutes_played% < 200'
+    actions:
+      default:
+      - 'playsound: ENTITY_PLAYER_LEVELUP;10;2'
+      - 'player_command: jobs join Minero'
+      - 'player_command: jobs join Talador'
+      - 'player_command: jobs join Cazador'
+      - 'player_command: jobs join Brewer'
+      - 'player_command: jobs join Builder'
+      - 'player_command: jobs join Crafter'
+      - 'player_command: jobs join Enchanter'
+      - 'player_command: jobs join Excavador'
+      - 'player_command: jobs join Explorador'
+      - 'player_command: jobs join Granjero'
+      - 'player_command: jobs join Pescador'
+      - 'player_command: jobs join Weaponsmith'
+      - 'player_command: kit claim Esclavo'
+      - 'message: Deja de ser esclavo con /rankup!'

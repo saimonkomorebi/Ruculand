@@ -1,0 +1,10 @@
+- El servidor está a mitad de desarrollo, con muchísimas cosas para pulir, por eso hay tantas "asimetrías" en el formato de chat, etc.
+- El logo del servidor está CLARAMENTE inspirado (prácticamente copiado) a partir de SoulCraft. Esto es debido a un chiste interno sobre ese servidor
+que tengo con ciertas personas, nunca hostearía un servidor con un logo copiado y en mala calidad.
+- Gracias al changeoutput logré también quitar el espacio en blanco que por lo general queda cuando una variable está vacía, eso me dio muchísima libertad
+(y me sacó el dolor de ojos)
+- Muchísimo tiempo invertido en personalizar cada uno de los kits, aunque paré de hacerlo porque tengo más de 15 pendientes.
+- El diseño y formato de las rachas de kills también fue inspirado de soulcraft, intentando revivir un poco su esencia.
+- No solo me inspiro en soulcraft, sino también en ImmerCraft (1.5.2, ya caducó hace mucho) Mineaqua, ThePlanet, etc...
+
+- Dato curioso: La cantidad de ideas que me fueron surgiendo eran inversamente proporcionales a la cantidad de trabajo que le dedicaba, es muchísimo para mi solo.
